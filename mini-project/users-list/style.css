@@ -1,0 +1,53 @@
+.users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 15px;
+}
+.users div {
+    height: 15vh;
+    width: 40vw;
+    background: cornflowerblue;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    appearance: none;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+    white-space: nowrap;
+
+    width: 30%;
+    height: 25%;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 10px 0;
+
+    box-shadow: rgba(45, 35, 66, 0.5) 0 5px 2px;
+
+    color: white;
+    background: radial-gradient(#e66465, #9198e5);
+
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}

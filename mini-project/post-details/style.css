@@ -1,0 +1,65 @@
+.postDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.postBlock {
+    height: 30vh;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 5px solid #9c1acb;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+button {
+    appearance: none;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+    white-space: nowrap;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    background: radial-gradient(#e66465, #9198e5);
+    box-shadow: rgba(45, 35, 66, 0.5) 0 5px 2px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+.commentsBlock {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.commentsBlock ul {
+    box-sizing: border-box;
+    width: 23vw;
+    height: 30%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+    list-style: none;
+    overflow: hidden;
+}
